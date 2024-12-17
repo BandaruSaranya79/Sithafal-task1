@@ -19,4 +19,27 @@ Users can ask questions about the uploaded documents, and the system will retrie
 
 ![Task1](https://i.postimg.cc/zGB9JgFw/task1.jpg)
 
+# Chat with Website Using RAG Pipeline
+
+This project implements a Retrieval-Augmented Generation (RAG) pipeline for interacting with websites. It allows users to query and chat with the content of websites by scraping data, embedding the text, and generating responses using a language model (GPT-2). This system enables users to ask questions about the content of multiple websites, retrieving relevant information and generating accurate answers.
+
+## Features
+
+- **Web Scraping**: Extracts and processes content from provided URLs (websites) using `requests` and `BeautifulSoup`.
+- **Data Chunking & Embedding**: Segments the content into meaningful chunks and generates vector embeddings for efficient retrieval using the `SentenceTransformer` model.
+- **Similarity Search**: Uses FAISS for fast similarity-based search to find the most relevant chunks of data from the embeddings.
+- **Chat with GPT-2**: Generates detailed responses to user queries based on the retrieved content using the GPT-2 model from Hugging Face.
+
+## Requirements
+
+To use this project, ensure you have Python 3.7+ and the following dependencies installed:
+
+- `requests`: For sending HTTP requests to websites.
+- `beautifulsoup4`: For parsing HTML and extracting text.
+- `sentence-transformers`: For generating sentence embeddings.
+- `faiss-cpu`: For efficient similarity search using FAISS.
+- `transformers`: For generating responses with GPT-2.
+- `huggingface-hub`: For interacting with Hugging Face models.
+
+![Task1](![Task1](https://i.postimg.cc/zGB9JgFw/task1.jpg))
 
