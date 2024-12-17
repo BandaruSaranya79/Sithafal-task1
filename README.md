@@ -15,6 +15,8 @@ Users can ask questions about the uploaded documents, and the system will retrie
 - **Text Chunking & Embedding**: Splits large text into smaller chunks and creates embeddings for efficient retrieval.
 - **Question Answering**: Allows users to query the content of the uploaded PDFs and get answers based on the extracted text.
 - **FAISS Vector Store**: Stores embeddings in a FAISS vector index for fast retrieval.
-- [Task1](https://i.postimg.cc/zGB9JgFw/task1.jpg)
+
+
+![Task1](https://i.postimg.cc/zGB9JgFw/task1.jpg)
 
 
