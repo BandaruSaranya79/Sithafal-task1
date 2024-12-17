@@ -41,5 +41,5 @@ To use this project, ensure you have Python 3.7+ and the following dependencies 
 - `transformers`: For generating responses with GPT-2.
 - `huggingface-hub`: For interacting with Hugging Face models.
 
-![Task1](https://i.postimg.cc/PfCyrQg5/task2.jpg)
+![Task2](https://i.postimg.cc/PfCyrQg5/task2.jpg)
 
